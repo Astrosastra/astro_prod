@@ -1,0 +1,4 @@
+/api/astrology-form-submission https://n8n.commcal.in/webhook/astrology-form-submission 200
+/api/astrology-payments https://astroknowlogy.app.n8n.cloud/webhook/astrology-payments 200
+/api/verify-payment https://astroknowlogy.app.n8n.cloud/webhook/verify-payment 200
+/api/places-autocomplete https://astroknowlogy.app.n8n.cloud/webhook/places-autocomplete 200
