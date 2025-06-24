@@ -15,17 +15,17 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api\/astrology-form-submission/, '/astrology-form-submission'),
       },
       '/api/astrology-payments': {
-        target: 'https://astroknowlogy.app.n8n.cloud/webhook',
+        target: 'https://n8n.astrosastra.com/webhook',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/astrology-payments/, '/astrology-payments'),
       },
       '/api/verify-payment': {
-        target: 'https://astroknowlogy.app.n8n.cloud/webhook',
+        target: 'https://n8n.astrosastra.com/webhook',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/verify-payment/, '/verify-payment'),
       },
       '/api/places-autocomplete': {
-        target: 'https://astroknowlogy.app.n8n.cloud/webhook',
+        target: 'https://n8n.astrosastra.com/webhook',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/places-autocomplete/, '/places-autocomplete'),
       },
